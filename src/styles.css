@@ -1,1 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
+.content {
+  display: flex;
+  margin: 10px 0 10px 20px;
+}
+.content p{
+  width: 250px;
+  border-bottom: 1px solid cornflowerblue;
+  border-radius: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-right: 10px;
+}
+.content button {
+  background: cornflowerblue;
+  border-radius: 10px;
+  border: 1px solid blue;
+  color: white;
+}
+.content button:active {
+  background: blue;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: aliceblue;
+  border-bottom: 1px solid blue;
+  border-radius: 10px;
+  height: 100px;
+}
+.header button {
+  background: cornflowerblue;
+  border-radius: 10px;
+  border: 1px solid blue;
+  color: white;
+  height: 30px;
+  width: 100px;
+}
+.header button:active {
+  background: blue;
+}
+app-users {
+  display: flex;
+  justify-content: space-around;
+}
+.userPost {
+  border-bottom: 1px solid cornflowerblue;
+  border-radius: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+app-posts {
+  display: flex;
+  justify-content: space-around;
+}
+.postComments {
+  border-bottom: 1px solid cornflowerblue;
+  border-radius: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+}
