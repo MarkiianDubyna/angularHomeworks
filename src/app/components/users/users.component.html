@@ -1,0 +1,4 @@
+ <app-user *ngFor="let user of users" [user]="user" (lift)="catchUser($event)"></app-user>
+    <hr/>
+  <app-user-details [catchedUser]="catchedUser"></app-user-details>
+

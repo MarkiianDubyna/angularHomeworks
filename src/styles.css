@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+.app {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  background: cornflowerblue;
+  border-radius: 10px;
+  border: 1px solid blue;
+  color: white;
+  text-align: right;
+  padding-right: 10px;
+}
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+button {
+  width: 60px;
+  height: 25px;
+  margin-left: 10px;
+  background: cornflowerblue;
+  border-radius: 10px;
+  color: white;
+}
+button:active {
+  background: cornflowerblue;
+}
+.catchedUser {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+
